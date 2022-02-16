@@ -7,15 +7,17 @@ import novel from "../../../../assets/images/novel.png";
 import poetry from "../../../../assets/images/poetry.png";
 import terror from "../../../../assets/images/terror.png";
 
-export default function Category(){
+export default function Category( props ){
+  const { onHide } = props;
+
   return(
     <div className={style.container}>
-      <CardImage title="Aventura" image={aventure}/>
-      <CardImage title="Infantil" image={children}/>
-      <CardImage title="Comic" image={comic}/>
-      <CardImage title="Novela" image={novel}/>
-      <CardImage title="Poesía" image={poetry}/>
-      <CardImage title="Terror" image={terror}/>
+      <CardImage onHide={onHide} title="Aventura" image={aventure}/>
+      <CardImage onHide={onHide} title="Infantil" image={children}/>
+      <CardImage onHide={onHide} title="Comic" image={comic}/>
+      <CardImage onHide={onHide} title="Novela" image={novel}/>
+      <CardImage onHide={onHide} title="Poesía" image={poetry}/>
+      <CardImage onHide={onHide} title="Terror" image={terror}/>
     </div>
   );
 }

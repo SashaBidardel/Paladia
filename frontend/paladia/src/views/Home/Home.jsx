@@ -1,11 +1,11 @@
-import Category from "./components/Category/Category.jsx";
-import Recommend from "./components/Recommend/Recommend.jsx";
+import style from "./Home.module.css";
 
-export default function Home(){
+export default function Home( props ){
+  const { showHome, children } = props;
+
   return(
-    <>
-      <Category />
-      <Recommend />
-    </>
+    <div className={`${style.container} ${showHome ? style.show : style.hide}`}>
+      {children}
+    </div>
   );
 }
