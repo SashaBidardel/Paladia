@@ -15,9 +15,9 @@ body {
   --lg: 1024px;
   --xl: 1280px;
   --xl2: 1563px;
+  --textSize: 1.4rem;
+  --titleSize: 2.2rem
 }
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
