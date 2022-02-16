@@ -10,13 +10,15 @@ body {
 :root{
   --darkGray: #444444;
   --darkBlue: #001233;
+  --darkBlueHover: #00205c;
+  --cream: #F6F6EB;
   --sm: 640px;
   --md: 768px;
   --lg: 1024px;
   --xl: 1280px;
   --xl2: 1563px;
   --textSize: 1.4rem;
-  --titleSize: 2.2rem
+  --titleSize: 2.2rem;
 }
 
 code {

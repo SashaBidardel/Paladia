@@ -1,15 +1,26 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .icon{
-  font-size: 1.4rem;
+  font-size: var(--textSize);
+  color: var(--darkBlue);
+  background-color: transparent;
+  border: none;
+  font-size: var(--titleSize);
+  margin-left: 5px;
 }
 
 .input{
-  border-radius: 10px;
-  padding-left: 10px;
-  font-size: 1.4rem;
-}
-
-.title{
-  font-size: 2.2rem;
+  border-radius: 12px;
+  padding-left: 14px;
+  font-size: var(--textSize);
+  color: var(--darkGray);
+  width: 70vw;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .input:focus{
