@@ -1,16 +1,18 @@
 import './App.css';
-import Search from "./views/Search/Search.jsx";
 import Navbar from './views/Navbar/Navbar.jsx'
-import Category from "./views/Home/components/Category/Category.jsx";
 import Cards from './views/Cards/Cards';
+import Home from "./views/Home/Home.jsx";
+import Search from "./views/Search/Search.jsx";
+import Footer from "./views/Footer/Footer.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Search />
-      <Category />
+      <Home />
       <Cards />
+      <Footer />
     </div>
   );
 }
