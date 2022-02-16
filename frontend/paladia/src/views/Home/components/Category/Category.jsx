@@ -12,12 +12,19 @@ export default function Category( props ){
 
   return(
     <div className={style.container}>
-      <CardImage onHide={onHide} title="Aventura" image={aventure}/>
-      <CardImage onHide={onHide} title="Infantil" image={children}/>
-      <CardImage onHide={onHide} title="Comic" image={comic}/>
-      <CardImage onHide={onHide} title="Novela" image={novel}/>
-      <CardImage onHide={onHide} title="Poesía" image={poetry}/>
-      <CardImage onHide={onHide} title="Terror" image={terror}/>
+      <div className={style.title}>
+        <h2>CATEGORÍAS</h2>
+        <hr />
+      </div>
+      <div className={style.container_images}>
+        <CardImage onHide={onHide} title="Aventura" image={aventure}/>
+        <CardImage onHide={onHide} title="Infantil" image={children}/>
+        <CardImage onHide={onHide} title="Comic" image={comic}/>
+        <CardImage onHide={onHide} title="Novela" image={novel}/>
+        <CardImage onHide={onHide} title="Poesía" image={poetry}/>
+        <CardImage onHide={onHide} title="Terror" image={terror}/>
+      </div>
     </div>
+    
   );
 }

@@ -36,3 +36,14 @@
 .iconBars{
   margin-left: -10px;
 }
+
+@media (min-width: 1024px){
+  .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .buttons:hover{
+    cursor: pointer;
+  }
+}

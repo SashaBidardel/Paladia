@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar onHide={hide}/>
+      <Navbar onHide={hide} />
       <Search setSearchText={setSearchText} />
       <Home showHome={showHome}>
-        <Category onHide={hide}/>
+        <Category onHide={hide} />
         <Recommend />
       </Home>
       <Filter showHome={showHome} searchText={searchText} />

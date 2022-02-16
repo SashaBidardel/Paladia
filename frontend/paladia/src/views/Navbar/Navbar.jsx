@@ -8,12 +8,12 @@ export default function Navbar( props ){
 
     return(
       <div className={style.container}>
-        <div className={style.iconBars}>  <FiAlignJustify/>  </div>
+        <div className={`${style.iconBars} ${style.buttons}`}>  <FiAlignJustify/>  </div>
         {/* <img className={style.logo} src={logop} alt="" /> */}
-        <h1 className={style.title} onClick={() => onHide(true)}>PALADIA</h1>
+        <h1 className={`${style.title} ${style.buttons}`} onClick={() => onHide(true)}>PALADIA</h1>
         <div className={style.containerIcons}>
-          <div className={style.iconUser}>  <FaUser/>  </div>
-          <div className={style.iconCart}>  <FaShoppingCart/>  </div>
+          <div className={`${style.iconUser} ${style.buttons}`}>  <FaUser/>  </div>
+          <div className={`${style.iconCart} ${style.buttons}`}>  <FaShoppingCart/>  </div>
         </div>
       </div>
     );
