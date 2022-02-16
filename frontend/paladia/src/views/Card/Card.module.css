@@ -1,9 +1,62 @@
 .Card {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 90%;
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    outline: 1px solid var(--darkBlue);
+    color: var(--darkBlue);
+    gap: 1rem;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    gap: 1rem;
+    width: 50%;
+}
+
+.Subtitle {
+    font-weight: bold;
+    margin-right: 0.4rem;
 }
 
 .Image {
     width: 50%;
+    height: fit-content;
+}
+
+.Button {
+    padding: 0.5rem 1rem;
+    background: var(--darkBlue);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.Button:hover {
+    transform: scale(1.05);
+    background: var(--darkBlueHover);
+}
+
+.Button:active {
+    transform: scale(1);
+}
+
+.Star {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;    
 }

@@ -1,12 +1,12 @@
 import './App.css';
 import Search from "./views/Search/Search.jsx";
-import Card from './views/Card/Card';
+import Cards from './views/Cards/Cards';
 
 function App() {
   return (
     <div className="App">
       <Search />
-      <Card />
+      <Cards />
     </div>
   );
 }
