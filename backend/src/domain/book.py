@@ -84,4 +84,20 @@ class BookRepository:
 
         data = cursor.fetchone()
         book = Book(**data)
+        print(book.to_dict)
         return book
+
+    def get_book_by_category(self, category):
+        sql = """select * from books where category = :category"""
+        conn = self.create_conn()
+        cursor = conn.cursor()
+        cursor.execute(sql, {"category": category})
+
+        data = cursor.fetchall()
+
+        result = []
+        for item in data:
+            book = Book(**item)
+            result.append(book)
+
+        return result
