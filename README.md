@@ -86,19 +86,19 @@ Dónde encontrar el proyecto en producción:
 ## Wireframe 🛸
 Wireframe de la idea principal del proyecto con funcionalidad:
 
-                                                    Home Landing
+                                                Home Landing
 ![1  Home Landing](https://user-images.githubusercontent.com/92159714/154488978-37686cee-3b98-41e6-bb0c-eec8ff036678.png)
 
-                                                    Categorias y Favoritos
+                                                Categorias y Favoritos
 ![2  Categorias y Favoritos](https://user-images.githubusercontent.com/92159714/154488987-a2c01336-c5fb-42f7-8b1d-c3d77f5c6e16.png)
 
-                                                    Login y Registro
+                                                Login y Registro
 ![3  Login y Registro](https://user-images.githubusercontent.com/92159714/154488985-2f6ccd78-6a75-4ea7-84be-acd3cfbd378e.png)
 
-                                                    Carrito de Compra
+                                                Carrito de Compra
 ![4  Carrito de Compra](https://user-images.githubusercontent.com/92159714/154488984-ec6c637e-f5af-4074-a092-626dd0a3d377.png)
 
-                                                    CRUD Libros
+                                                CRUD Libros
 ![5  CRUD Libros](https://user-images.githubusercontent.com/92159714/154488981-46c9f11b-0c09-4ef6-b8d1-cfb6b3174c44.png)
 
 
@@ -107,26 +107,41 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 
 ## Versión Desktop 🛰️
 
-                                                    Home Landing
+        Home Landing
 ![1](https://user-images.githubusercontent.com/92159714/154507580-05f78ba2-d734-47ab-ab53-55c2fddba302.gif)
 
-                                                    Categorias 
+        Categorias 
 ![2](https://user-images.githubusercontent.com/92159714/154509223-fecad066-7453-4443-9ffb-fb954ab8a3c3.gif)
 
-                                                    Search Bar 
+        Search Bar 
 ![3](https://user-images.githubusercontent.com/92159714/154509688-9ff866f1-ed9b-4720-b0bc-a992917a5f15.gif)
 
-                                                    Login y Registro
+        Login y Registro
 ![4](https://user-images.githubusercontent.com/92159714/154509967-147d20cb-4d88-4a51-a247-3ecfdc393495.gif)
 
-                                                    Recomendados 
+        Recomendados 
 ![5](https://user-images.githubusercontent.com/92159714/154510170-8c1d4680-82ea-452a-9048-8226c5f2bd6a.gif)
 
 
 
 ## Versión Mobile First 🪐
+        Home Landing
+![1 1](https://user-images.githubusercontent.com/92159714/154514817-174be59a-b951-483a-867b-23af04171d75.gif)
+
+        Categorias 
+![2 2](https://user-images.githubusercontent.com/92159714/154516135-ca8afdc3-978e-4813-88a0-8b4f95a700f8.gif)
+
+        Search Bar 
+![3 3](https://user-images.githubusercontent.com/92159714/154515910-8b21ae09-84c8-42a4-abd7-b360617633e1.gif)
+
+        Login y Registro
+![4 4](https://user-images.githubusercontent.com/92159714/154515394-93a2467f-5b65-4a25-ad17-9c1f72da71a4.gif)
+
+        Recomendados 
+![5 5](https://user-images.githubusercontent.com/92159714/154515703-550a23c4-8dad-4d50-bd51-bd995f519a44.gif)
 
 
+         
 
 
 
