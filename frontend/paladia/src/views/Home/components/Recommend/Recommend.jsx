@@ -15,6 +15,7 @@ const Recommend = () => {
         <Card />
         <Card />
         <Card />
+        <Card />
       </div>
     </div>
   )

@@ -23,6 +23,8 @@
   width: 70vw;
   padding-top: 8px;
   padding-bottom: 8px;
+  border: none;
+  background-color: rgb(199, 199, 199);
 }
 
 .input:focus{
@@ -33,5 +35,13 @@
   .container{
     padding-top: 150px;
     padding-bottom: 50px;
+  }
+
+  .input{
+    width: 50%;
+  }
+
+  .icon:hover{
+    cursor: pointer;
   }
 }

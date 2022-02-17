@@ -3,19 +3,19 @@ import { FaSearch } from "react-icons/fa";
 import { useState } from "react";
 
 export default function Search( props ){
-  const { setSearchText } = props;
   const [ value, setValue ] = useState("");
+  const { setSearchText, onHide } = props;
 
   return(
     <div className={style.container}>
       <input 
         className={style.input} 
-        placeholder="Buscar..."
+        placeholder="Buscar..." 
         type="text"
         value={value}
         onChange={event => setValue(event.target.value)}
       />
-      <button onClick={() => setSearchText(value)} className={style.icon}><FaSearch /></button>
+      <button onClick={() => {setSearchText(value);onHide()}} className={style.icon}><FaSearch /></button>
     </div>
   );
 }

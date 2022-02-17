@@ -6,6 +6,7 @@ export default function Category( props ){
   return(
     <div onClick={() => onHide(false)} className={style.container}>
       <div className={style.title}>{title}</div>
+      <div className={style.effect}>{title}</div>
       <img className={style.image} src={image} alt=""/>
     </div>
   );
