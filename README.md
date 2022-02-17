@@ -20,18 +20,19 @@ El "*seller*" tiene las herramientas para la gestión (CRUD) de la página y pub
 ## Estructura 🎡
 Nuestra Home Landing estará dividida en:
 
- - Navbar: en la parte izquierda, tendremos un 📊 "*icon bar*" 📊 dónde en un futuro nos gustaría incluir un apartado **login/singn** up para el usuario. 🙆‍♀️ En el caso de la parte derecha tendremos 🛒"*icon cart*" 🛒, en un futuro nos gustaría poder darle esa funcionalidad real de carrito de compra y tener así una experiencia completa para el usuario. 🛍️
+ - Navbar: en el extremo izquierdo, tendremos un 📊 "*icon bar*" 📊, donde en un futuro nos gustaría incluir un apartado **login/singn up** para nuestros usuarios. 🙆‍♀️ En el caso del extremo derecho tendremos 🛒"*icon cart*" 🛒, en un futuro nos gustaría poder darle esa funcionalidad real de carrito de compra y obtener así una experiencia completa. 🛍️
 
  - 🔍Search Container🔍: nuestro usuario, a futuro, podrá buscar el libro que necesite el cual será filtrado en nuestra base de datos por el componente filter. 🔖
 
-- Category Container: encontraremos las categorías que disponemos en la aplicación 📇, para una búsqueda más agilizada del género de libro 📖 que deseemos buscar, además de esto tendremos una pequeña transición 🌔 con sombra en caso de pasar el mouse por encima de las cards. 🐭
+- Category Container: encontraremos las categorías que disponemos en la aplicación 📇, para una búsqueda más agilizada del género de libro 📖 que deseemos buscar, además de esto tendremos un hover de desplazamiento 🌔 en caso de pasar el mouse por encima de las cards. 🐭
 
-- 🍾Recommended Container🏆: en este apartado tendremos los libros más 🌟top del momento🌟, puntuados por nuestros clientes y recomendados al resto de usuarios, en este caso una vez pasemos el mouse 🐭🧀 tendremos una pequeña animación que acercará el contenedor escogido y le cambiará el color para resaltarlo del resto 📌, una vez quitemos el mouse volverá a su estado original. En recomendados,  encontraremos la imagen del libro destacado🌟, su título, el género, el precio a pagar 💲💲💲 (si deseamos adquirirlo), además de la estrella de puntuación 🤩. En "*ver detalles*", a futuro 🌠, nos gustaría implementar otra vista dónde explicase, a detalle, una breve descripción de la obra.
+- 🍾Recommended Container🏆: en este apartado tendremos los libros más 🌟top del momento🌟, puntuados por nuestros clientes y recomendados al resto de usuarios, en este caso una vez pasemos el mouse 🐭🧀 tendremos una pequeña animación que acercará el contenedor escogido y le cambiará el color para resaltarlo del resto 📌, una vez quitemos el mouse volverá a su estado original. En recomendados, encontraremos la imagen del libro destacado🌟, su título, el género, el precio a pagar 💲💲💲 (si deseamos adquirirlo), además de la estrella de puntuación 🤩. En "*ver detalles*", nos enviará a otra vista dónde nos explica, a detalle, una breve descripción de la obra.
 
-- 🐾Footer🐾: en este caso optamos por un footer sencillo que a futuro llevará las redes sociales dónde poder encontrar nuestro marketplace y cómo contactar con nsootros. 📱💻📧
+- 🐾Footer🐾: en este caso optamos por un footer sencillo que, a futuro 🌠, llevará las redes sociales, dónde poder encontrar nuestro marketplace y cómo contactar con nosotros. 📱💻📧
 
-Posibles proyectos➕:
-- Nos gustaría poder mandar mensajes 📫 a los clientes una vez se registran, para confirmar la accón [x], y otra una vez hayan realizado la compra 🛒🛍️, para así quedar constancia de ello.
+➕ Posibles proyectos ➕:
+- Nos gustaría poder mandar mensajes 📫 a los clientes, una vez se registran, para confirmar la acción. [ ]
+- Mandar otro mensaje 📧, una vez hayan realizado la compra 🛒🛍️, para así quedar constancia de ello. [ ]
 
 
 
@@ -46,7 +47,7 @@ Clone git https://github.com/SashaBidardel/Paladia.git para descargar el proyect
 
 
 ## Pre-requisitos 📋💬
-Para este proyecto vas a necesitar instalar la última versión de Python acorde a tu sistema operativo, en el sguiente enlace puedes hacerte con ello ➡️ https://www.python.org/downloads/
+Para este proyecto vas a necesitar instalar la última versión de Python, acorde a tu sistema operativo, en el siguiente enlace puedes hacerte con ello ➡️ https://www.python.org/downloads/
 
 Una vez instalado el paso anterior, buscaremos en extensiones para Visual Studio Code, la extensión verificada ☑️ para Python.
 
@@ -76,10 +77,19 @@ Repositorio despliegue del backend: https://github.com/iElectro13/paladia-backen
 5. Ejecutar: flask run 🏁
 
 
+✋ Este entorno virtual será distinto en cada sistema operativo, por lo que es importante saber qué pasos debemos seguir en cada caso, abajo os dejamos los enlaces para los sistemas de Windowa, MAC y Linux con sus respectivos tutoriales y documentación. 🥰
+
+- Windows: https://docs.python.org/es/3/tutorial/venv.html
+
+- MAC: https://m-monroyc22.medium.com/configurar-entorno-virtual-python-a860e820aace
+
+- Linux: https://conpilar.es/como-crear-un-entorno-virtual-python-3-en-ubuntu-20-04/
+
+
 
 ## ⚙️ Instalación Backend 🔧
 (Esta aplicación supone que el comando `python` ejecuta al menos la versión `3.8`.
- En caso de que no fuera así, hay que tenerlo en cuenta en todos los comandos que uticen `python` y modificarlos en consecuencia).
+ En caso de no ser así, se debe tener en cuenta en todos los comandos que uticen `python` y modificarlos en consecuencia).
 
 
 ### Scripts Disponibles 🔌🔋
@@ -98,6 +108,30 @@ Repositorio despliegue del backend: https://github.com/iElectro13/paladia-backen
 4. Ejecutar la aplicación 🥇
 
     `python app.py`
+
+
+
+## API Documentation: 💤
+Estas son las endpoint para poder interactuar con nuestra API.👐💟👐
+En caso de usarse como referencia para vuestros proyectos, 
+       🍀¡Nos encantaría ver vuestros repositorios!🍀
+
+- Base url: https://paladia-api.herokuapp.com/api/v1
+- get all books: /books
+- get book by id /books/<id>
+- get book by category: books/<category>
+- create new book: books/new
+- this route expectes this schema:
+        {
+          "title":"Cien años de soledad",
+          "category":"Realismo magico",
+          "description":"Cien años de soledad es una novela del escritor colombiano Gabriel García Márquez, ganador del Premio Nobel de Literatura en 1982.",
+          "image":"no-image",
+          "price": 100,
+          "seller":"Enmanuel Pereira"
+        }
+-delete book: books/delete/<id>
+
 
 
 
@@ -222,6 +256,7 @@ Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 - Comenta a otros sobre este proyecto 📢🤘
 - Apoya nuestros proyectos y danos feedback 🤓🍻
 - Proyecto hecho con ❤️, esfuerzo 🦾 y muchas ganas🎢
+
 
 
 
