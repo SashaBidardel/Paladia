@@ -13,7 +13,7 @@ export default function Category( props ){
   return(
     <div className={style.container}>
       <div className={style.title}>
-        <h2>CATEGORÍAS</h2>
+        <h2>GÉNEROS</h2>
         <hr />
       </div>
       <div className={style.container_images}>

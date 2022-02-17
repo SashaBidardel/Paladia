@@ -1,28 +1,37 @@
 .Card {
-    padding: 1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 90%;
     max-width: 400px;
-    margin: auto;
     background: white;
     border-radius: 15px;
-    position: relative;
     outline: 1px solid var(--darkBlue);
     color: var(--darkBlue);
-    gap: 1rem;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.Title{
+    text-align: left;
+}
+
+.Category{
+    text-align: left;
 }
 
 .Info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     border-radius: 30px;
     gap: 1rem;
     width: 50%;
+    margin-left: 10px;
 }
 
 .Subtitle {
@@ -31,8 +40,17 @@
 }
 
 .Image {
-    width: 50%;
+    width: 45%;
     height: fit-content;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .Button {
@@ -42,21 +60,28 @@
     border-radius: 5px;
     color: white;
     cursor: pointer;
-}
-
-.Button:hover {
-    transform: scale(1.05);
-    background: var(--darkBlueHover);
-}
-
-.Button:active {
-    transform: scale(1);
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    transition: all 0.4s ease-in-out;
+    margin-left: 2px;
 }
 
 .Star {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    cursor: pointer;    
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+@media (min-width: 1024px){
+    .Button:hover {
+        transform: scale(1.05);
+        background: var(--darkBlueHover);
+    }
+
+    .Card:hover{
+        transform:scale(1.05);
+        box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+        background-color: rgb(249, 250, 182);
+    }
 }
