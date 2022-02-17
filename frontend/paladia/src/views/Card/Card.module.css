@@ -21,21 +21,45 @@
     height: 83vh;
     top: 0;
     display: flex;
-    flex-direction: column;
+    margin-top: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column-reverse;
     z-index: 2;
+    overflow: scroll;
 }
 
+.EnlargeActive::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.EnlargeActive::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.EnlargeActive::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
 .Description{
-    text-align: start;
     display: none;
 }
 
 .DescriptionActive{
-    display: block;
+    display: flex;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
 }
 
 .Title{
     text-align: left;
+}
+
+.TitleActive{
+    font-weight: bold;
 }
 
 .Category{
@@ -45,18 +69,19 @@
 .Info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     text-align: center;
     border-radius: 30px;
     gap: 1rem;
     width: 50%;
+    height: 100%;
     margin-left: 10px;
 }
 
 .InfoActive{
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
     width: 90%;
 }
 
@@ -66,8 +91,7 @@
 }
 
 .Image {
-    width: 45%;
-    height: fit-content;
+    width: 50%;
     border-radius: 10px;
     margin: 10px;
 }
@@ -91,6 +115,7 @@
     padding-right: 7px;
     transition: all 0.4s ease-in-out;
     margin-left: 2px;
+    margin-top: 30px;
 }
 
 .ButtonActive{
@@ -137,8 +162,25 @@
         background-color: rgb(249, 250, 182);
     }
 
+    .InfoActive{
+        width: auto;
+        gap: 0;
+    }
+
+    .InfoActive .Title{
+        text-align: center;
+    }
+
+    .InfoActive span{
+        text-align: start;
+    }
+
     .EnlargeActive{
-        height: auto;
+        height: 80vh;
+        display: flex;
+        justify-content: start;
+        background-color: white;
+        flex-direction: column-reverse;
     }
 
     .EnlargeActive:hover{
@@ -158,5 +200,17 @@
 
     .CloseActive:hover{
         cursor: pointer;
+    }
+}
+
+@media (min-width: 1500px){
+    .InfoActive{
+        margin: 0;
+        height: 20%;
+    }
+
+    .CloseActive{
+        top: 11vh;
+        right: 34vw;
     }
 }
