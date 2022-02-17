@@ -3,14 +3,14 @@
   font-size: var(--textSize);
   text-align: center;
   color: white;
-  padding-top: 10%;
+  padding-top: 1%;
   margin-top: 40px;
 }
 
 .rights{
-  margin: 0;
-  padding-top: 15vh;
-  padding-bottom: 20px;
+  margin:0%;
+  padding-top:0%vh;
+  padding-bottom: 15px;
   margin-left: 5%;
   margin-right: 5%;
 }
