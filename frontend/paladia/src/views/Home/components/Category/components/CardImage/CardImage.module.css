@@ -1,0 +1,42 @@
+.container{
+  position: relative;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+}
+
+.title{
+  position: absolute;
+  font-size: var(--textSize);
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+@media (min-width: 640px){
+  .image{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px){
+  .image{
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1563px){
+  .image{
+    width: 430px;
+    height: 420px;
+  }
+}

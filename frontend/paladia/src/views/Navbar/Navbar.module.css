@@ -1,0 +1,49 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.8rem;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  color: var(--darkBlue);
+  border-bottom: 3px solid var(--darkBlue);
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  background-color: white;
+}
+
+.title{
+  font-size: var(--textSize);
+  margin-left: 25px;
+  font-family: 'Recursive', sans-serif;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.containerIcons{
+  display: flex;
+}
+
+.iconCart{
+  margin-left: 15px;
+  margin-right: -10px;
+}
+
+.iconBars{
+  margin-left: -10px;
+}
+
+@media (min-width: 1024px){
+  .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .buttons:hover{
+    cursor: pointer;
+  }
+}

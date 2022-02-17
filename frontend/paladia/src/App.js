@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './views/Navbar/Navbar.jsx'
+import Home from "./views/Home/Home.jsx";
+import Search from "./views/Search/Search.jsx";
+import Footer from "./views/Footer/Footer.jsx";
+import Filter from "./views/Filter/Filter.jsx";
+import Category from "./views/Home/components/Category/Category.jsx";
+import Recommend from "./views/Home/components/Recommend/Recommend.jsx";
+import { useState } from 'react';
 
 function App() {
+  const [ searchText, setSearchText ] = useState("");
+  const [ showHome, setShowHome ] = useState(true);
+
+  const hide = value => setShowHome(value);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar onHide={hide} />
+      <Search setSearchText={setSearchText} />
+      <Home showHome={showHome}>
+        <Category onHide={hide} />
+        <Recommend />
+      </Home>
+      <Filter showHome={showHome} searchText={searchText} />
+      <Footer />
     </div>
   );
 }
