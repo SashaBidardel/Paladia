@@ -83,41 +83,64 @@ npm start
 ## 🚀 Proyecto en producción
 Dónde encontrar el proyecto en producción:
 
-### Wireframe 🛸
+## Wireframe 🛸
 Wireframe de la idea principal del proyecto con funcionalidad:
 
-### Versión Desktop 🛰️
+![1  Home Landing](https://user-images.githubusercontent.com/92159714/154488978-37686cee-3b98-41e6-bb0c-eec8ff036678.png)
+![5  CRUD Libros](https://user-images.githubusercontent.com/92159714/154488981-46c9f11b-0c09-4ef6-b8d1-cfb6b3174c44.png)
+![4  Carrito de Compra](https://user-images.githubusercontent.com/92159714/154488984-ec6c637e-f5af-4074-a092-626dd0a3d377.png)
+![3  Login y Registro](https://user-images.githubusercontent.com/92159714/154488985-2f6ccd78-6a75-4ea7-84be-acd3cfbd378e.png)
+![2  Categorias y Favoritos](https://user-images.githubusercontent.com/92159714/154488987-a2c01336-c5fb-42f7-8b1d-c3d77f5c6e16.png)
+
+
+## Versión Desktop 🛰️
 animated
 
-### Versión Mobile First 🪐
+## Versión Mobile First 🪐
 
 
 
 
 
 ## Construido con 🛠️
-Menciona las herramientas que utilizaste para crear tu proyecto
+**Framework**:
+ - Flask *more info:* *https://flask.palletsprojects.com/en/2.0.x/*
+ - React *more info:* *https://reactjs.org/*
+
+**Lenguajes**:
+- Python *more info:* *https://docs.python.org/3/*
+- JavaScript *more info:* *https://developer.mozilla.org/es/docs/Web/JavaScript*
+
+**Librerias** (de generación de datos aleatorios):
+- Faker *more info:* *https://faker.readthedocs.io/en/master/*
+
+**Obtención de datos aleatorios**:
+-Random *more info:* *https://docs.python.org/3/library/random.html*
+
+**ORM**: 
+- SQL Alchemy *more info:* *https://flask-sqlalchemy.palletsprojects.com/en/2.x/*
+
+**Base datos**: 
+- Sqlite3 *more info:* *https://www.sqlite.org/docs.html*
 
 
-Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
-
-### Autores 🌻✒️
+## Autores 🌻✒️
 Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-- 👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero
-- 👽 Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u
-- 👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13
-- 👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal
--  Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775
-- 👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel
-- 👽 David Alcalde Iglesias  👀👀👀 github: https://github.com/Davaious
+👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero
+👽 Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u
+👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13
+👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal
+👽 Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775
+👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel
+👽 David Alcalde Iglesias  👀👀👀 github: https://github.com/Davaious
 
 
 
-###### Gratitud 🎁🤸
-- Comenta a otros sobre este proyecto 📢🤘
-- Apoya nuestros proyectos y danos feedback 🤓🍻
-- Proyecto hecho con ❤️, esfuerzo 🦾 y muchas ganas🎢
+## Gratitud 🎁🤸
+Comenta a otros sobre este proyecto 📢🤘
+Apoya nuestros proyectos y danos feedback 🤓🍻
+Proyecto hecho con ❤️, esfuerzo 🦾 y muchas ganas🎢
 
 
 
