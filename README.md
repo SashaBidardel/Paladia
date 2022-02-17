@@ -85,6 +85,7 @@ Dónde encontrar el proyecto en producción:
 
 ## Wireframe 🛸
 Wireframe de la idea principal del proyecto con funcionalidad:
+
                                                     Home Landing
 ![1  Home Landing](https://user-images.githubusercontent.com/92159714/154488978-37686cee-3b98-41e6-bb0c-eec8ff036678.png)
 
@@ -105,7 +106,8 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 
 
 ## Versión Desktop 🛰️
-animated
+                                                    Home Landing
+![1](https://user-images.githubusercontent.com/92159714/154507580-05f78ba2-d734-47ab-ab53-55c2fddba302.gif)
 
 ## Versión Mobile First 🪐
 
@@ -115,36 +117,39 @@ animated
 
 ## Construido con 🛠️
 **Framework**:
- - Flask *more info:* *https://flask.palletsprojects.com/en/2.0.x/*
- - React *more info:* *https://reactjs.org/*
+ - Flask   *more info:* *https://flask.palletsprojects.com/en/2.0.x/*
+ - React   *more info:* *https://reactjs.org/*
 
 **Lenguajes**:
-- Python *more info:* *https://docs.python.org/3/*
-- JavaScript *more info:* *https://developer.mozilla.org/es/docs/Web/JavaScript*
+- Python   *more info:* *https://docs.python.org/3/*
+- JavaScript   *more info:* *https://developer.mozilla.org/es/docs/Web/JavaScript*
 
 **Librerias** (de generación de datos aleatorios):
-- Faker *more info:* *https://faker.readthedocs.io/en/master/*
+- Faker   *more info:* *https://faker.readthedocs.io/en/master/*
 
 **Obtención de datos aleatorios**:
-- Random *more info:* *https://docs.python.org/3/library/random.html*
+- Random   *more info:* *https://docs.python.org/3/library/random.html*
 
 **ORM**: 
-- SQL Alchemy *more info:* *https://flask-sqlalchemy.palletsprojects.com/en/2.x/*
+- SQL Alchemy   *more info:* *https://flask-sqlalchemy.palletsprojects.com/en/2.x/*
 
 **Base datos**: 
-- Sqlite3 *more info:* *https://www.sqlite.org/docs.html*
+- Sqlite3   *more info:* *https://www.sqlite.org/docs.html*
+
+**Tecnología para test**:
+- Postman   *more info:* *https://learning.postman.com/docs/getting-started/introduction/*
 
 
 
 ## Autores 🌻✒️
 Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-- 👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero
-- 👽 Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u
-- 👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13
-- 👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal
-- 👽 Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775
-- 👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel
-- 👽 David Alcalde Iglesias  👀👀👀 github: https://github.com/Davaious
+- 👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero  🛸📍Linkedin: www.linkedin.com/in/clàudia-calero
+- 👽 Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u  
+- 👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13  🛸📍Linkedin: https://www.linkedin.com/in/enmanuel-pereira-quijano-b6b45a21b/
+- 👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal  🛸📍Linkedin: https://www.linkedin.com/in/hernandosilvaleal/
+- 👽 Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775  🛸📍Linkedin: https://www.linkedin.com/in/daniel-bustos-nieto-71407619a/
+- 👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel  🛸📍Linkedin: https://www.linkedin.com/in/sashabidardelfattahi/
+- 👽 David Alcalde Iglesias  👀👀👀 github: https://github.com/Davaious   
 
 
 
