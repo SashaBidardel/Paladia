@@ -173,12 +173,23 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 
 ## Autores 🌻✒️
 Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-- 👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero  🛸📍Linkedin: https://www.linkedin.com/in/claudia-calero/
-- 👽 Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u  
-- 👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13  🛸📍Linkedin: https://www.linkedin.com/in/enmanuel-pereira-quijano-b6b45a21b/
-- 👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal  🛸📍Linkedin: https://www.linkedin.com/in/hernandosilvaleal/
-- 👽 Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775  🛸📍Linkedin: https://www.linkedin.com/in/daniel-bustos-nieto-71407619a/
-- 👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel  🛸📍Linkedin: https://www.linkedin.com/in/sashabidardelfattahi/
+- 👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero  
+        🛸📍Linkedin: https://www.linkedin.com/in/claudia-calero/
+
+- 👽 Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u 
+
+- 👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13  
+        🛸📍Linkedin: https://www.linkedin.com/in/enmanuel-pereira-quijano-b6b45a21b/
+
+- 👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal  
+        🛸📍Linkedin: https://www.linkedin.com/in/hernandosilvaleal/
+
+- 👽 Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775  
+        🛸📍Linkedin: https://www.linkedin.com/in/daniel-bustos-nieto-71407619a/
+
+- 👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel    
+        🛸📍Linkedin: https://www.linkedin.com/in/sashabidardelfattahi/
+        
 - 👽 David Alcalde Iglesias  👀👀👀 github: https://github.com/Davaious   
 
 
