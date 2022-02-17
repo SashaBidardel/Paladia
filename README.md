@@ -80,7 +80,7 @@ npm install(node)
 
 
 
-## 🚀 Proyecto en producción
+## 🚀 Proyecto en producción 🌙
 Dónde encontrar el proyecto en producción:
 
 ## Wireframe 🛸
@@ -89,7 +89,7 @@ Wireframe de la idea principal del proyecto con funcionalidad:
                                                 Home Landing
 ![1  Home Landing](https://user-images.githubusercontent.com/92159714/154488978-37686cee-3b98-41e6-bb0c-eec8ff036678.png)
 
-                                                Categorias y Favoritos
+                                                Categorias 
 ![2  Categorias y Favoritos](https://user-images.githubusercontent.com/92159714/154488987-a2c01336-c5fb-42f7-8b1d-c3d77f5c6e16.png)
 
                                                 Login y Registro
@@ -129,7 +129,7 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 ![1 1](https://user-images.githubusercontent.com/92159714/154514817-174be59a-b951-483a-867b-23af04171d75.gif)
 
         Categorias 
-![2 2](https://user-images.githubusercontent.com/92159714/154516135-ca8afdc3-978e-4813-88a0-8b4f95a700f8.gif)
+![2 2](https://user-images.githubusercontent.com/92159714/154517462-cf3fc30f-6a93-4910-b9d2-ead0cbf98213.gif)
 
         Search Bar 
 ![3 3](https://user-images.githubusercontent.com/92159714/154515910-8b21ae09-84c8-42a4-abd7-b360617633e1.gif)
