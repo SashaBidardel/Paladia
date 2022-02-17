@@ -35,12 +35,14 @@ Posibles proyectos➕:
 
 
 
+
 ## Despegamos 💥🚀 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu ordenador local, para propósitos de desarrollo y pruebas:
 
 Abre la terminal y ejecuta:
 
 Clone git https://github.com/SashaBidardel/Paladia.git para descargar el proyecto, realiza un fork.
+
 
 
 ## Pre-requisitos 📋💬
@@ -57,9 +59,28 @@ npm install(node)
 - npm start
 
 
+
+
+## Pre-requisitos Backend 📋💬
+Repositorio despliegue del backend: https://github.com/iElectro13/paladia-backend
+
+1. Crear un **entorno virtual**, con *venv* o *virtualenv* 📐
+
+2. Activar el entorno virtual 🛐
+
+3. `pip install -r requirements.txt` 🧰
+
+4. Crear un archivo *.env* donde escribiremos: `export SECRET_KEY="dev"`
+        ⚠️(esta variable solo funcionará en un entorno de desarrollo)⚠️
+
+5. Ejecutar: flask run 🏁
+
+
+
 ## ⚙️ Instalación Backend 🔧
 (Esta aplicación supone que el comando `python` ejecuta al menos la versión `3.8`.
  En caso de que no fuera así, hay que tenerlo en cuenta en todos los comandos que uticen `python` y modificarlos en consecuencia).
+
 
 ### Scripts Disponibles 🔌🔋
 1. Instalar los paquetes necesarios 📁📦
@@ -77,6 +98,7 @@ npm install(node)
 4. Ejecutar la aplicación 🥇
 
     `python app.py`
+
 
 
 
@@ -121,6 +143,8 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 
         Recomendados 
 ![5](https://user-images.githubusercontent.com/92159714/154510170-8c1d4680-82ea-452a-9048-8226c5f2bd6a.gif)
+
+
 
 
 
