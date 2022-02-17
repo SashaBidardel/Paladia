@@ -26,14 +26,12 @@ Nuestra Home Landing estará dividida en:
 
 - Category Container: encontraremos las categorías que disponemos en la aplicación 📇, para una búsqueda más agilizada del género de libro 📖 que deseemos buscar, además de esto tendremos una pequeña transición 🌔 con sombra en caso de pasar el mouse por encima de las cards. 🐭
 
-- 🍾Recommended Container🏆: en este apartado tendremos los libros más 🌟top del momento🌟, puntuados por nuestros clientes y recomendados al resto de usuarios, en este caso una vez pasemos el mouse 🐭🧀 tendremos una pequeña animación que acercará el contenedor escogido y le cambiará el color para resaltarlo del resto 📌, una vez quitemos el mouse volverá a su estado original. 
-
-En recomendados,  encontraremos la imagen del libro destacado🌟, su título, el género, el precio a pagar 💲💲💲 (si deseamos adquirirlo), además de la estrella de puntuación 🤩. En "*ver detalles*", a futuro 🌠, nos gustaría implementar otra vista dónde explicase, a detalle, una breve descripción de la obra.
+- 🍾Recommended Container🏆: en este apartado tendremos los libros más 🌟top del momento🌟, puntuados por nuestros clientes y recomendados al resto de usuarios, en este caso una vez pasemos el mouse 🐭🧀 tendremos una pequeña animación que acercará el contenedor escogido y le cambiará el color para resaltarlo del resto 📌, una vez quitemos el mouse volverá a su estado original. En recomendados,  encontraremos la imagen del libro destacado🌟, su título, el género, el precio a pagar 💲💲💲 (si deseamos adquirirlo), además de la estrella de puntuación 🤩. En "*ver detalles*", a futuro 🌠, nos gustaría implementar otra vista dónde explicase, a detalle, una breve descripción de la obra.
 
 - 🐾Footer🐾: en este caso optamos por un footer sencillo que a futuro llevará las redes sociales dónde poder encontrar nuestro marketplace y cómo contactar con nsootros. 📱💻📧
 
 Posibles proyectos➕:
-Nos gustaría poder mandar mensajes 📫 a los clientes una vez se registran, para confirmar la accón [x], y otra una vez hayan realizado la compra 🛒🛍️, para así quedar constancia de ello.
+- Nos gustaría poder mandar mensajes 📫 a los clientes una vez se registran, para confirmar la accón [x], y otra una vez hayan realizado la compra 🛒🛍️, para así quedar constancia de ello.
 
 
 
@@ -82,16 +80,16 @@ npm start
 
 
 
-🚀 Proyecto en producción
+## 🚀 Proyecto en producción
 Dónde encontrar el proyecto en producción:
 
-Wireframe 🛸
+### Wireframe 🛸
 Wireframe de la idea principal del proyecto con funcionalidad:
 
-Versión Desktop 🛰️
+### Versión Desktop 🛰️
 animated
 
-Versión Mobile First 🪐
+### Versión Mobile First 🪐
 
 
 
@@ -106,20 +104,20 @@ Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y
 
 ### Autores 🌻✒️
 Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero
-👽Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u
-👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13
-👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal
-👽 Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775
-👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel
-👽 David Alcalde Iglesias  👀👀👀 github: https://github.com/Davaious
+- 👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero
+- 👽 Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u
+- 👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13
+- 👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal
+-  Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775
+- 👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel
+- 👽 David Alcalde Iglesias  👀👀👀 github: https://github.com/Davaious
 
 
 
 ###### Gratitud 🎁🤸
-Comenta a otros sobre este proyecto 📢🤘
-Apoya nuestros proyectos y danos feedback 🤓🍻
-Proyecto hecho con ❤️, esfuerzo 🦾 y muchas ganas🎢
+- Comenta a otros sobre este proyecto 📢🤘
+- Apoya nuestros proyectos y danos feedback 🤓🍻
+- Proyecto hecho con ❤️, esfuerzo 🦾 y muchas ganas🎢
 
 
 
