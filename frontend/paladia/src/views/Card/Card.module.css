@@ -14,6 +14,26 @@
     transition: all 0.4s ease-in-out;
 }
 
+.EnlargeActive{
+    position: fixed;
+    width: auto;
+    margin-top: 100px;
+    height: 83vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.Description{
+    text-align: start;
+    display: none;
+}
+
+.DescriptionActive{
+    display: block;
+}
+
 .Title{
     text-align: left;
 }
@@ -32,6 +52,12 @@
     gap: 1rem;
     width: 50%;
     margin-left: 10px;
+}
+
+.InfoActive{
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
 }
 
 .Subtitle {
@@ -67,10 +93,36 @@
     margin-left: 2px;
 }
 
+.ButtonActive{
+    display: none;
+}
+
 .Star {
     font-size: 1.5rem;
     cursor: pointer;
     margin-right: 15px;
+}
+
+.Bg{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(32, 32, 32, 0.767);
+    z-index: 1;
+}
+
+.Close{
+    display: none;
+    color: black;
+}
+
+.CloseActive{
+    display: block;
+    position: absolute;
+    font-size: 35px;
+    top: 0;
+    right: 0;
 }
 
 @media (min-width: 1024px){
@@ -83,5 +135,28 @@
         transform:scale(1.05);
         box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
         background-color: rgb(249, 250, 182);
+    }
+
+    .EnlargeActive{
+        height: auto;
+    }
+
+    .EnlargeActive:hover{
+        transform: none;
+        box-shadow: none;
+        background-color: white;
+    }
+
+    .CloseActive{
+        display: block;
+        position: fixed;
+        font-size: 50px;
+        top: 14vh;
+        right: 30vw;
+        color: white;
+    }
+
+    .CloseActive:hover{
+        cursor: pointer;
     }
 }

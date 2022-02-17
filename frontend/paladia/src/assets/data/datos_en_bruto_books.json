@@ -1,4 +1,4 @@
-{
+[
    {
    "title": "Las Aventuras de Tom Sawyer",
    "author": "Mark Twain",
@@ -6,7 +6,7 @@
    "category": "aventura",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "Robinson Crusoe",
    "author": "Daniel Defoe",
@@ -14,7 +14,7 @@
    "category": "",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "Moby-Dick",
    "author": "Herman Melville",
@@ -22,9 +22,7 @@
    "category": "aventura",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
-
-
+   },
    {
    "title": "El principito",
    "author": "Antoine de Saint-Exupéry",
@@ -32,7 +30,7 @@
    "category": "infantil",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "",
    "author": "",
@@ -40,7 +38,7 @@
    "category": "infantil",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "El monstruo de colores",
    "author": "Anna Llenas",
@@ -48,11 +46,7 @@
    "category": "infantil",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
-   
-   
-   
-  
+   },
    {
    "title": "1984",
    "author": "George Orwell",
@@ -60,8 +54,7 @@
    "category": "novela",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
-   
+   },
    {
    "title": "Ficciones",
    "author": "Jorge Luis Borges",
@@ -69,7 +62,7 @@
    "category": "novela",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "Lolita",
    "author": "Vladimir Nabokov",
@@ -77,9 +70,7 @@
    "category": "novela",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
-
-
+   },
    {
    "title": "Libro de poemas",
    "author": "Federico García Lorca",
@@ -87,7 +78,7 @@
    "category": "Poesia",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "Nos quedarán más atardeceres",
    "author": "Manu Erena",
@@ -95,18 +86,15 @@
    "category": "Poesia",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "Poesia completa",
    "author": "Alejandra Pizarnik",
-   "price": "36400,
+   "price": 36400,
    "category": "Poesia",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
-   
-   
-   
+   },
    {
    "title": "V de Vendetta",
    "author": "Alan Moore",
@@ -114,7 +102,7 @@
    "category": "comics",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "El Incal Negro",
    "author": "Alejandro Jodorowsky",
@@ -122,7 +110,7 @@
    "category": "comics",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "Marvels",
    "author": "Kurt Busiek",
@@ -130,10 +118,7 @@
    "category": "comics",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
-   
-   
-   
+   },
    {
    "title": "El resplandor",
    "author": "Stephen King",
@@ -141,7 +126,7 @@
    "category": "terror",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "Drácula",
    "author": "Bram Stoker",
@@ -149,7 +134,7 @@
    "category": "terror",
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-   }
+   },
    {
    "title": "Frankenstein",
    "author": "Mary Shelley",
@@ -158,4 +143,4 @@
    "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
    }
-}
+]
