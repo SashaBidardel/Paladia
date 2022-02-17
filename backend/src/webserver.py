@@ -23,4 +23,9 @@ def create_app(repositories):
         book = repositories["books"].get_book_by_id(id)
         return object_to_json(book)
 
+    @app.route("/api/books/category/<category>", methods=["GET"])
+    def book_get_by_category(category):
+        book = repositories["books"].get_book_by_category(category)
+        return object_to_json(book)
+
     return app
