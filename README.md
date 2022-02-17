@@ -106,8 +106,23 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 
 
 ## Versión Desktop 🛰️
+
                                                     Home Landing
 ![1](https://user-images.githubusercontent.com/92159714/154507580-05f78ba2-d734-47ab-ab53-55c2fddba302.gif)
+
+                                                    Categorias 
+![2](https://user-images.githubusercontent.com/92159714/154509223-fecad066-7453-4443-9ffb-fb954ab8a3c3.gif)
+
+                                                    Search Bar 
+![3](https://user-images.githubusercontent.com/92159714/154509688-9ff866f1-ed9b-4720-b0bc-a992917a5f15.gif)
+
+                                                    Login y Registro
+![4](https://user-images.githubusercontent.com/92159714/154509967-147d20cb-4d88-4a51-a247-3ecfdc393495.gif)
+
+                                                    Recomendados 
+![5](https://user-images.githubusercontent.com/92159714/154510170-8c1d4680-82ea-452a-9048-8226c5f2bd6a.gif)
+
+
 
 ## Versión Mobile First 🪐
 
