@@ -86,19 +86,19 @@ Dónde encontrar el proyecto en producción:
 ## Wireframe 🛸
 Wireframe de la idea principal del proyecto con funcionalidad:
 
-                                                 Home Landing
+                                                   Home Landing
 ![1  Home Landing](https://user-images.githubusercontent.com/92159714/154488978-37686cee-3b98-41e6-bb0c-eec8ff036678.png)
 
-                                                 Categorias 
+                                                   Categorias 
 ![2  Categorias y Favoritos](https://user-images.githubusercontent.com/92159714/154488987-a2c01336-c5fb-42f7-8b1d-c3d77f5c6e16.png)
 
-                                                 Login y Registro
+                                                   Login y Registro
 ![3  Login y Registro](https://user-images.githubusercontent.com/92159714/154488985-2f6ccd78-6a75-4ea7-84be-acd3cfbd378e.png)
 
-                                                 Carrito de Compra
+                                                   Carrito de Compra
 ![4  Carrito de Compra](https://user-images.githubusercontent.com/92159714/154488984-ec6c637e-f5af-4074-a092-626dd0a3d377.png)
 
-                                                 CRUD Libros
+                                                   CRUD Libros
 ![5  CRUD Libros](https://user-images.githubusercontent.com/92159714/154488981-46c9f11b-0c09-4ef6-b8d1-cfb6b3174c44.png)
 
 
