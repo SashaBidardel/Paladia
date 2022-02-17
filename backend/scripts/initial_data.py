@@ -1,5 +1,7 @@
 
 import sys
+
+
 sys.path.insert(0, "")
 
 
@@ -17,12 +19,12 @@ def organize_data():
         'pie', 'bar', 'Ice', 'oat']
 
     categories = [
-        "Ciencias",
-        "Matematicas",
-        "Terror",
-        "Fantasía",
-        "Ciencia ficción",
-        "Acción"
+        "ciencias",
+        "matematicas",
+        "terror",
+        "fantasia",
+        "ciencia ficcion",
+        "accion"
     ]
 
     database_path = "data/database.db"
@@ -33,7 +35,7 @@ def organize_data():
             id=i,
             title=fake.sentence(ext_word_list=my_word_list),
             description=fake.sentence(ext_word_list=my_word_list),
-            image="image_not_found",
+            image="https://api.lorem.space/image/movie?w=500&amp;amp;amp;h=500",
             category=choice(categories),
             price=randint(1, 10),
             seller=fake.name()
