@@ -11,6 +11,7 @@ import { useState } from 'react';
 function App() {
   const [ searchText, setSearchText ] = useState("");
   const [ showHome, setShowHome ] = useState(true);
+  const [ filtered, setFiltered ] = useState("");
 
   const hide = value => setShowHome(value);
 
@@ -19,10 +20,10 @@ function App() {
       <Navbar onHide={hide} />
       <Search setSearchText={setSearchText} onHide={hide} />
       <Home showHome={showHome}>
-        <Category onHide={hide} />
+        <Category onHide={hide} setFiltered={setFiltered} />
         <Recommend />
       </Home>
-      <Filter showHome={showHome} searchText={searchText} />
+      <Filter showHome={showHome} searchText={searchText} filtered={filtered} />
       <Footer />
     </div>
   );

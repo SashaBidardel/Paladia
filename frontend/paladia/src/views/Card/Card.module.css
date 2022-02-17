@@ -14,8 +14,52 @@
     transition: all 0.4s ease-in-out;
 }
 
+.EnlargeActive{
+    position: fixed;
+    width: auto;
+    margin-top: 100px;
+    height: 83vh;
+    top: 0;
+    display: flex;
+    margin-top: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column-reverse;
+    z-index: 2;
+    overflow: scroll;
+}
+
+.EnlargeActive::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.EnlargeActive::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.EnlargeActive::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.Description{
+    display: none;
+}
+
+.DescriptionActive{
+    display: flex;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
+}
+
 .Title{
     text-align: left;
+}
+
+.TitleActive{
+    font-weight: bold;
 }
 
 .Category{
@@ -25,13 +69,20 @@
 .Info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     text-align: center;
     border-radius: 30px;
     gap: 1rem;
     width: 50%;
+    height: 100%;
     margin-left: 10px;
+}
+
+.InfoActive{
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
 }
 
 .Subtitle {
@@ -40,8 +91,7 @@
 }
 
 .Image {
-    width: 45%;
-    height: fit-content;
+    width: 50%;
     border-radius: 10px;
     margin: 10px;
 }
@@ -65,12 +115,39 @@
     padding-right: 7px;
     transition: all 0.4s ease-in-out;
     margin-left: 2px;
+    margin-top: 30px;
+}
+
+.ButtonActive{
+    display: none;
 }
 
 .Star {
     font-size: 1.5rem;
     cursor: pointer;
     margin-right: 15px;
+}
+
+.Bg{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(32, 32, 32, 0.767);
+    z-index: 1;
+}
+
+.Close{
+    display: none;
+    color: black;
+}
+
+.CloseActive{
+    display: block;
+    position: absolute;
+    font-size: 35px;
+    top: 0;
+    right: 0;
 }
 
 @media (min-width: 1024px){
@@ -83,5 +160,57 @@
         transform:scale(1.05);
         box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
         background-color: rgb(249, 250, 182);
+    }
+
+    .InfoActive{
+        width: auto;
+        gap: 0;
+    }
+
+    .InfoActive .Title{
+        text-align: center;
+    }
+
+    .InfoActive span{
+        text-align: start;
+    }
+
+    .EnlargeActive{
+        height: 80vh;
+        display: flex;
+        justify-content: start;
+        background-color: white;
+        flex-direction: column-reverse;
+    }
+
+    .EnlargeActive:hover{
+        transform: none;
+        box-shadow: none;
+        background-color: white;
+    }
+
+    .CloseActive{
+        display: block;
+        position: fixed;
+        font-size: 50px;
+        top: 14vh;
+        right: 30vw;
+        color: white;
+    }
+
+    .CloseActive:hover{
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1500px){
+    .InfoActive{
+        margin: 0;
+        height: 20%;
+    }
+
+    .CloseActive{
+        top: 11vh;
+        right: 34vw;
     }
 }

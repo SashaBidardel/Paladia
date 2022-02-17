@@ -1,0 +1,161 @@
+{
+   {
+   "title": "Las Aventuras de Tom Sawyer",
+   "author": "Mark Twain",
+   "price": 63200,
+   "category": "aventura",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "Robinson Crusoe",
+   "author": "Daniel Defoe",
+   "price": 52000,
+   "category": "",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "Moby-Dick",
+   "author": "Herman Melville",
+   "price": 37000,
+   "category": "aventura",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+
+
+   {
+   "title": "El principito",
+   "author": "Antoine de Saint-Exupéry",
+   "price": 34000,
+   "category": "infantil",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "",
+   "author": "",
+   "price": 45000,
+   "category": "infantil",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "El monstruo de colores",
+   "author": "Anna Llenas",
+   "price": 51000,
+   "category": "infantil",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   
+   
+   
+  
+   {
+   "title": "1984",
+   "author": "George Orwell",
+   "price": 35600,
+   "category": "novela",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   
+   {
+   "title": "Ficciones",
+   "author": "Jorge Luis Borges",
+   "price": 42000,
+   "category": "novela",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "Lolita",
+   "author": "Vladimir Nabokov",
+   "price": 38000,
+   "category": "novela",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+
+
+   {
+   "title": "Libro de poemas",
+   "author": "Federico García Lorca",
+   "price": 41000,
+   "category": "Poesia",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "Nos quedarán más atardeceres",
+   "author": "Manu Erena",
+   "price": 47000,
+   "category": "Poesia",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "Poesia completa",
+   "author": "Alejandra Pizarnik",
+   "price": "36400,
+   "category": "Poesia",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   
+   
+   
+   {
+   "title": "V de Vendetta",
+   "author": "Alan Moore",
+   "price": 35500,
+   "category": "comics",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "El Incal Negro",
+   "author": "Alejandro Jodorowsky",
+   "price": 51000, 
+   "category": "comics",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "Marvels",
+   "author": "Kurt Busiek",
+   "price": 39500,
+   "category": "comics",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   
+   
+   
+   {
+   "title": "El resplandor",
+   "author": "Stephen King",
+   "price": 43000,
+   "category": "terror",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "Drácula",
+   "author": "Bram Stoker",
+   "price": 56000,
+   "category": "terror",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+   {
+   "title": "Frankenstein",
+   "author": "Mary Shelley",
+   "price": 51000,
+   "category": "terror",
+   "Imagen": "https://api.lorem.space/image/book?w=500&amp;amp;amp;amp;h=500",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+}
