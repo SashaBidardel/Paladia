@@ -46,14 +46,19 @@ Clone git https://github.com/SashaBidardel/Paladia.git para descargar el proyect
 
 
 
-## Pre-requisitos 📋💬
+## Pre-requisitos Generales 📋💬
 Para este proyecto vas a necesitar instalar la última versión de Python, acorde a tu sistema operativo, en el siguiente enlace puedes hacerte con ello ➡️ https://www.python.org/downloads/
 
 Una vez instalado el paso anterior, buscaremos en extensiones para Visual Studio Code, la extensión verificada ☑️ para Python.
 
-
 ## 🛠️ Instalación Frontend 🛠️
-npm install(node)
+Lo primero que debes hacer es instalar node, desde la consola de tu editor de codigo con el comando npm install.
+
+Ahora, una vez descargado el codigo del front end, debes ejecutar desde la terminal el comando npm start, el cual inicializará el proyecto para que se ejecute de manera local, por lo general en el puerto 3000.
+
+Ahora bien, en detalle de la estructura de carpetas, se gestionaron con una jerarquía de componentes basada en las vistas principales, de manera que tiene 3 subniveles de carpetas, organizadas segun la composicion del mockup realizado en figma y la navegabilidad predefinida para el usuario.
+
+Algo muy importante dentro de la construccion del front, fue la gestion de conexion entre componentes, la utilizacion de estilos condicionales, la comunicacion entre las props, y la logica de hocks en cada componente.
 
 ### Scripts Disponibles 🔌🔋
 - cd paladia
