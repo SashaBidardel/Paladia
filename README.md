@@ -173,7 +173,7 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 
 ## Autores 🌻✒️
 Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-- 👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero  🛸📍Linkedin: www.linkedin.com/in/clàudia-calero
+- 👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero  🛸📍Linkedin: https://www.linkedin.com/in/claudia-calero/
 - 👽 Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u  
 - 👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13  🛸📍Linkedin: https://www.linkedin.com/in/enmanuel-pereira-quijano-b6b45a21b/
 - 👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal  🛸📍Linkedin: https://www.linkedin.com/in/hernandosilvaleal/
