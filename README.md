@@ -47,12 +47,12 @@ Clone git https://github.com/SashaBidardel/Paladia.git para descargar el proyect
 
 
 ## Pre-requisitos Generales 📋💬
-Para este proyecto vas a necesitar instalar la última versión de Python, acorde a tu sistema operativo, en el siguiente enlace puedes hacerte con ello ➡️ https://www.python.org/downloads/
+Para este proyecto vas a necesitar instalar la última versión de Python, acorde a nuestro sistema operativo, en el siguiente enlace puedes hacerte con ello ➡️ https://www.python.org/downloads/
 
 Una vez instalado el paso anterior, buscaremos en extensiones para Visual Studio Code, la extensión verificada ☑️ para Python.
 
 ## 🛠️ Instalación Frontend 🛠️
-Lo primero que debes hacer es instalar node, desde la consola de tu editor de codigo con el comando npm install.
+1.Instalar *node* desde la consola de nuestro editor de código con el comando: **npm install**.
 
 Ahora, una vez descargado el codigo del front end, debes ejecutar desde la terminal el comando npm start, el cual inicializará el proyecto para que se ejecute de manera local, por lo general en el puerto 3000.
 
@@ -169,7 +169,7 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 ## Versión Desktop 🛰️
 
         Home Landing
-![1](https://user-images.githubusercontent.com/92159714/154507580-05f78ba2-d734-47ab-ab53-55c2fddba302.gif)
+![11111111111111](https://user-images.githubusercontent.com/92159714/154582456-76d8eb1a-5bab-47da-83e4-018cb5747669.gif)
 
         Categorias 
 ![2](https://user-images.githubusercontent.com/92159714/154509223-fecad066-7453-4443-9ffb-fb954ab8a3c3.gif)
@@ -181,7 +181,8 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 ![4](https://user-images.githubusercontent.com/92159714/154509967-147d20cb-4d88-4a51-a247-3ecfdc393495.gif)
 
         Recomendados 
-![5](https://user-images.githubusercontent.com/92159714/154510170-8c1d4680-82ea-452a-9048-8226c5f2bd6a.gif)
+![5555555555](https://user-images.githubusercontent.com/92159714/154581934-637360bd-7899-462e-a351-b9b79c726da5.gif)
+
 
 
 
@@ -189,7 +190,7 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 
 ## Versión Mobile First 🪐
         Home Landing
-![1 1](https://user-images.githubusercontent.com/92159714/154514817-174be59a-b951-483a-867b-23af04171d75.gif)
+![11111](https://user-images.githubusercontent.com/92159714/154582817-dd8fc668-370c-4c02-9925-f6b6aa44ad9f.gif)
 
         Categorias 
 ![2 2](https://user-images.githubusercontent.com/92159714/154517462-cf3fc30f-6a93-4910-b9d2-ead0cbf98213.gif)
@@ -201,7 +202,7 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 ![4 4](https://user-images.githubusercontent.com/92159714/154515394-93a2467f-5b65-4a25-ad17-9c1f72da71a4.gif)
 
         Recomendados 
-![5 5](https://user-images.githubusercontent.com/92159714/154515703-550a23c4-8dad-4d50-bd51-bd995f519a44.gif)
+![55555](https://user-images.githubusercontent.com/92159714/154582584-1d349189-b572-4852-8974-7c2f96a64d5e.gif)
 
 
          
