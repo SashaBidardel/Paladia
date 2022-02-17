@@ -2,8 +2,8 @@
 ✨✨*¡Sabiduría al alcance de un click!* ✨✨	
 
 ## Introducción 🔬
-El proyecto "**PALADIA**", es un market place para realizar la compra y venta de libros. Nuestros usuarios podrán ver las distintas categorías de géneros que disponemos y los destacados del momento puntuados por nuestros clientes.
-El "*seller*" tiene las herramientas para la gestión (CRUD) de la página y publicaicón de los libros.
+El proyecto "**PALADIA**", es un market place para realizar la compra y venta de libros. Nuestros usuarios podrán ver las distintas categorías de géneros que disponemos y los destacados del momento.
+El "*seller*" es quién tendrá las herramientas para la gestión de la página y publicación de los libros.
 
 
 ## Objetivos de la práctica🛫
@@ -26,7 +26,7 @@ Nuestra Home Landing estará dividida en:
 
 - Category Container: encontraremos las categorías que disponemos en la aplicación 📇, para una búsqueda más agilizada del género de libro 📖 que deseemos buscar, además de esto tendremos un hover de desplazamiento 🌔 en caso de pasar el mouse por encima de las cards. 🐭
 
-- 🍾Recommended Container🏆: en este apartado tendremos los libros más 🌟top del momento🌟, puntuados por nuestros clientes y recomendados al resto de usuarios, en este caso una vez pasemos el mouse 🐭🧀 tendremos una pequeña animación que acercará el contenedor escogido y le cambiará el color para resaltarlo del resto 📌, una vez quitemos el mouse volverá a su estado original. En recomendados, encontraremos la imagen del libro destacado🌟, su título, el género, el precio a pagar 💲💲💲 (si deseamos adquirirlo), además de la estrella de puntuación 🤩. En "*ver detalles*", nos enviará a otra vista dónde nos explica, a detalle, una breve descripción de la obra.
+- 🍾Recommended Container🏆: en este apartado tendremos los libros más 🌟top del momento🌟 recomendados a nuestros usuarios, en este caso una vez pasemos el mouse 🐭🧀 tendremos una pequeña animación que acercará el contenedor escogido y le cambiará el color para resaltarlo del resto 📌, una vez quitemos el mouse volverá a su estado original. En recomendados, encontraremos la imagen del libro destacado🌟, su título, el género y el precio a pagar 💲💲💲 (si deseamos adquirirlo). En "*ver detalles*", nos enviará a otra vista dónde nos explica, a detalle, una breve descripción de la obra.🤩👓
 
 - 🐾Footer🐾: en este caso optamos por un footer sencillo que, a futuro 🌠, llevará las redes sociales, dónde poder encontrar nuestro marketplace y cómo contactar con nosotros. 📱💻📧
 
@@ -52,13 +52,14 @@ Para este proyecto vas a necesitar instalar la última versión de Python, acord
 Una vez instalado el paso anterior, buscaremos en extensiones para Visual Studio Code, la extensión verificada ☑️ para Python.
 
 ## 🛠️ Instalación Frontend 🛠️
-1.Instalar *node* desde la consola de nuestro editor de código con el comando: **npm install**.
+1. Instalar *node* desde la consola de nuestro editor de código con el comando: **npm install**.
 
-Ahora, una vez descargado el codigo del front end, debes ejecutar desde la terminal el comando npm start, el cual inicializará el proyecto para que se ejecute de manera local, por lo general en el puerto 3000.
+2. Una vez descargado el codigo del frontend, debemos ejecutar desde la terminal el comando **npm start**, para así inicializar el proyecto y que éste se ejecute de manera local. (Generalmente en el puerto 3000) 📌
 
-Ahora bien, en detalle de la estructura de carpetas, se gestionaron con una jerarquía de componentes basada en las vistas principales, de manera que tiene 3 subniveles de carpetas, organizadas segun la composicion del mockup realizado en figma y la navegabilidad predefinida para el usuario.
+3. Estructura de carpetas: el front se gestiona con una jerarquía de componentes basada en las vistas principales, de esta manera nos quedarán 3 subniveles de carpetas, que organizaremos según la composición del *mockup*, realizado en figma, y la navegabilidad predefinida para nuestro usuario. 🖌️
 
-Algo muy importante dentro de la construccion del front, fue la gestion de conexion entre componentes, la utilizacion de estilos condicionales, la comunicacion entre las props, y la logica de hocks en cada componente.
+⚠️✋ Algo muy importante dentro de la construccion del front, fue la gestion de conexión entre componentes, la utilización de estilos condicionales, la comunicación entre las props, y la lógica de hocks en cada componente.⚠️✋ 
+
 
 ### Scripts Disponibles 🔌🔋
 - cd paladia
@@ -172,7 +173,7 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 ![11111111111111](https://user-images.githubusercontent.com/92159714/154582456-76d8eb1a-5bab-47da-83e4-018cb5747669.gif)
 
         Categorias 
-![2](https://user-images.githubusercontent.com/92159714/154509223-fecad066-7453-4443-9ffb-fb954ab8a3c3.gif)
+![999999999](https://user-images.githubusercontent.com/92159714/154587591-c1ceb447-b3bf-487c-8432-20dbe80b999d.gif)
 
         Search Bar 
 ![3](https://user-images.githubusercontent.com/92159714/154509688-9ff866f1-ed9b-4720-b0bc-a992917a5f15.gif)
@@ -193,7 +194,7 @@ Wireframe de la idea principal del proyecto con funcionalidad:
 ![11111](https://user-images.githubusercontent.com/92159714/154582817-dd8fc668-370c-4c02-9925-f6b6aa44ad9f.gif)
 
         Categorias 
-![2 2](https://user-images.githubusercontent.com/92159714/154517462-cf3fc30f-6a93-4910-b9d2-ead0cbf98213.gif)
+![9999](https://user-images.githubusercontent.com/92159714/154586800-035dfa37-4610-4abe-83f1-7465baed3492.gif)
 
         Search Bar 
 ![3 3](https://user-images.githubusercontent.com/92159714/154515910-8b21ae09-84c8-42a4-abd7-b360617633e1.gif)
