@@ -22,7 +22,7 @@ El "*seller*" tiene las herramientas para la gestión de la página y publicaic�
 
  - Nuestra Home Landing estará dividida en: un Navbar, un Body y un Footer.
 portada la aplicación tendrá un slider con las masterclasses destacadas. éstas serán seleccionables por el administrador.
-En portadase muestra una vista con los eventos ordenados del más cercano al más lejano en el tiempo.
+En portadase muestra una vista con los eventos ordenados del más cercano al más lejano en el t
 Los eventos incluyen como: título, fecha/hora, número máximo de participantes, descripción y una imagen.
 Los eventos pasados se muestran en la vista de pasados pero se mantienen identificables como no disponibles.
 Los usuarios puede registrarse para apuntarse a un evento. Una vez apuntados no pueden volver a hacerlo.
