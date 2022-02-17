@@ -8,7 +8,7 @@ import poetry from "../../../../assets/images/poetry.png";
 import terror from "../../../../assets/images/terror.png";
 
 export default function Category( props ){
-  const { onHide } = props;
+  const { onHide, setFiltered } = props;
 
   return(
     <div className={style.container}>
@@ -17,12 +17,12 @@ export default function Category( props ){
         <hr />
       </div> */}
       <div className={style.container_images}>
-        <CardImage onHide={onHide} title="Aventura" image={aventure}/>
-        <CardImage onHide={onHide} title="Infantil" image={children}/>
-        <CardImage onHide={onHide} title="Comic" image={comic}/>
-        <CardImage onHide={onHide} title="Novela" image={novel}/>
-        <CardImage onHide={onHide} title="Poesía" image={poetry}/>
-        <CardImage onHide={onHide} title="Terror" image={terror}/>
+        <CardImage onHide={onHide} title="Aventura" image={aventure} setFiltered={setFiltered}/>
+        <CardImage onHide={onHide} title="Infantil" image={children} setFiltered={setFiltered}/>
+        <CardImage onHide={onHide} title="Comic" image={comic} setFiltered={setFiltered}/>
+        <CardImage onHide={onHide} title="Novela" image={novel} setFiltered={setFiltered}/>
+        <CardImage onHide={onHide} title="Poesía" image={poetry} setFiltered={setFiltered}/>
+        <CardImage onHide={onHide} title="Terror" image={terror} setFiltered={setFiltered}/>
       </div>
     </div>
     
