@@ -18,21 +18,22 @@ El "*seller*" tiene las herramientas para la gestión de la página y publicaic�
 
 
 ## Estructura 🎡
- Requisitos Funcionales 🎯:
+Nuestra Home Landing estará dividida en:
 
- - Nuestra Home Landing estará dividida en: un Navbar, un Body y un Footer.
-portada la aplicación tendrá un slider con las masterclasses destacadas. éstas serán seleccionables por el administrador.
-En portadase muestra una vista con los eventos ordenados del más cercano al más lejano en el t
-Los eventos incluyen como: título, fecha/hora, número máximo de participantes, descripción y una imagen.
-Los eventos pasados se muestran en la vista de pasados pero se mantienen identificables como no disponibles.
-Los usuarios puede registrarse para apuntarse a un evento. Una vez apuntados no pueden volver a hacerlo.
-Al apuntarse a un evento, recibirán un email (empresarial - html ) con el link (zoom, meets, etc..) en donde se va a realizar, así como recordando el título del evento, la hora y el día.
-Los usuarios pueden ver en una página la lista de los eventos a los que están registrados.
-El administrador podrá hacer CRUD de los eventos.
-Cuando un evento esté lleno (máximo número de participantes) nadie podrá registrarse.
-Test de aceptación.
-Envío de el email se realiza por sistema de colas.
-Para el Frontend, se usan componentes de blade.
+ - Navbar: en la parte izquierda, tendremos un 📊 "*icon bar*" 📊 dónde en un futuro nos gustaría incluir un apartado **login/singn** up para el usuario. 🙆‍♀️ En el caso de la parte derecha tendremos 🛒"*icon cart*" 🛒, en un futuro nos gustaría poder darle esa funcionalidad real de carrito de compra y tener así una experiencia completa para el usuario. 🛍️
+
+ - 🔍Search Container🔍: nuestro usuario, a futuro, podrá buscar el libro que necesite el cual será filtrado en nuestra base de datos por el componente filter. 🔖
+
+- Category Container: encontraremos las categorías que disponemos en la aplicación 📇, para una búsqueda más agilizada del género de libro 📖 que deseemos buscar, además de esto tendremos una pequeña transición 🌔 con sombra en caso de pasar el mouse por encima de las cards. 🐭
+
+- 🍾Recommended Container🏆: en este apartado tendremos los libros más 🌟top del momento🌟, puntuados por nuestros clientes y recomendados al resto de usuarios, en este caso una vez pasemos el mouse 🐭🧀 tendremos una pequeña animación que acercará el contenedor escogido y le cambiará el color para resaltarlo del resto 📌, una vez quitemos el mouse volverá a su estado original. 
+
+En recomendados,  encontraremos la imagen del libro destacado🌟, su título, el género, el precio a pagar 💲💲💲 (si deseamos adquirirlo), además de la estrella de puntuación 🤩. En "*ver detalles*", a futuro 🌠, nos gustaría implementar otra vista dónde explicase, a detalle, una breve descripción de la obra.
+
+- 🐾Footer🐾: en este caso optamos por un footer sencillo que a futuro llevará las redes sociales dónde poder encontrar nuestro marketplace y cómo contactar con nsootros. 📱💻📧
+
+Posibles proyectos➕:
+Nos gustaría poder mandar mensajes 📫 a los clientes una vez se registran, para confirmar la accón [x], y otra una vez hayan realizado la compra 🛒🛍️, para así quedar constancia de ello.
 
 
 
@@ -44,7 +45,7 @@ Abre la terminal y ejecuta:
 Clone git https://github.com/SashaBidardel/Paladia.git para descargar el proyecto, realiza un fork.
 
 
-## Pre-requisitos 📋
+## Pre-requisitos 📋💬
 Para este proyecto vas a necesitar instalar la última versión de Python acorde a tu sistema operativo, en el sguiente enlace puedes hacerte con ello ➡️ https://www.python.org/downloads/
 
 Una vez instalado el paso anterior, buscaremos en extensiones para Visual Studio Code, la extensión verificada ☑️ para Python.
@@ -54,64 +55,32 @@ Una vez instalado el paso anterior, buscaremos en extensiones para Visual Studio
 npm install(node)
 
 ### Scripts Disponibles 🔌🔋
+cd paladia
 npm start
-npm test
-
 
 
 ## ⚙️ Instalación Backend 🔧
+(Esta aplicación supone que el comando `python` ejecuta al menos la versión `3.8`.
+ En caso de que no fuera así, hay que tenerlo en cuenta en todos los comandos que uticen `python` y modificarlos en consecuencia).
 
 ### Scripts Disponibles 🔌🔋
+1. Instalar los paquetes necesarios 📁📦
+
+    `python -m pip install --user -r requirements.txt`
+
+2. Ejecutar los tests 🧪
+
+    `python -m pytest`
+
+3. Generar los datos iniciales 🔛
+
+    `python scripts/initial_data.py`
+
+4. Ejecutar la aplicación 🥇
+
+    `python app.py`
 
 
-
-
-
-Ejecutando las pruebas ⚙️
-Explica como ejecutar las pruebas automatizadas para este sistema
-
-Analice las pruebas end-to-end 🔩
-Explica que verifican estas pruebas y por qué
-
-Da un ejemplo
-Y las pruebas de estilo de codificación ⌨️
-Explica que verifican estas pruebas y por qué
-
-Da un ejemplo
-Despliegue 📦
-Agrega notas adicionales sobre como hacer deploy
-
-Construido con 🛠️
-Menciona las herramientas que utilizaste para crear tu proyecto
-
-Dropwizard - El framework web usado
-Maven - Manejador de dependencias
-ROME - Usado para generar RSS
-Contribuyendo 🖇️
-Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-Wiki 📖
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra Wiki
-
-Versionado 📌
-Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
-
-Autores ✒️
-Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-
-Andrés Villanueva - Trabajo Inicial - villanuevand
-Fulanito Detal - Documentación - fulanitodetal
-También puedes mirar la lista de todos los contribuyentes quíenes han participado en este proyecto.
-
-Licencia 📄
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
-
-Expresiones de Gratitud 🎁
-Comenta a otros sobre este proyecto 📢
-Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
-Da las gracias públicamente 🤓.
-etc.
-⌨️ con ❤️ por Villanuevand 😊
 
 🚀 Proyecto en producción
 Dónde encontrar el proyecto en producción:
@@ -123,3 +92,36 @@ Versión Desktop 🛰️
 animated
 
 Versión Mobile First 🪐
+
+
+
+
+
+## Construido con 🛠️
+Menciona las herramientas que utilizaste para crear tu proyecto
+
+
+Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+
+
+### Autores 🌻✒️
+Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
+👽 Clàudia Calero Duró  👀👀👀 github: https://github.com/ClaudiaCalero
+👽Ruth Urgiles Dominguez  👀👀👀 gitlab: https://gitlab.com/ruth.u
+👽 Enmanuel Pereira  👀👀👀 github: https://github.com/iElectro13
+👽 Hernando Silva Leal  👀👀👀 github: https://github.com/HernandoSilvaLeal
+👽 Daniel Bustos Nieto  👀👀👀 github: https://github.com/daniel1775
+👽 Sasha Bidardel Fattahi  👀👀👀 github: https://github.com/SashaBidardel
+👽 David Alcalde Iglesias  👀👀👀 github: https://github.com/Davaious
+
+
+
+###### Gratitud 🎁🤸
+Comenta a otros sobre este proyecto 📢🤘
+Apoya nuestros proyectos y danos feedback 🤓🍻
+Proyecto hecho con ❤️, esfuerzo 🦾 y muchas ganas🎢
+
+
+
+⌨️ por ClaudiaCalero 🌻
+
